@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    android:background="@drawable/signo"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:fontFamily="@font/architects_daughter"
+        android:text="MENU"
+        android:textAlignment="center"
+        android:textColor="#202020"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnJugar"
+        android:layout_width="280dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/boton"
+        android:fontFamily="@font/architects_daughter"
+        android:text="JUGAR"
+        android:textColor="#F3F9FC"
+        android:textStyle="bold"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btnPuntaje"
+        android:layout_width="280dp"
+        android:layout_height="50dp"
+        android:background="@drawable/boton"
+        android:textSize="20sp"
+        android:textColor="#F3F9FC"
+        android:textStyle="bold"
+        android:fontFamily="@font/architects_daughter"
+        android:layout_marginBottom="5dp"
+        android:layout_gravity="center"
+        android:text="VER PUNTAJE" />
+
+    <Button
+        android:id="@+id/btnRespuesta"
+        android:layout_width="280dp"
+        android:layout_height="50dp"
+        android:background="@drawable/boton"
+        android:textStyle="bold"
+        android:fontFamily="@font/architects_daughter"
+        android:textSize="20sp"
+        android:textColor="#F3F9FC"
+        android:layout_marginBottom="5dp"
+        android:layout_gravity="center"
+        android:text="VER RESPUESTA" />
+
+    <Button
+        android:id="@+id/btnDatos"
+        android:layout_width="280dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="5dp"
+        android:fontFamily="@font/architects_daughter"
+        android:background="@drawable/boton"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#F3F9FC"
+        android:layout_gravity="center"
+        android:text="MIS DATOS" />
+</LinearLayout>
