@@ -16,7 +16,7 @@
         android:layout_marginTop="50dp"
         android:layout_weight="1"
         android:fontFamily="@font/architects_daughter"
-        android:text="ADIVINA EL NUMERO"
+        android:text="¿QUE NÚMERO ESTOY PENSANDO?"
         android:textAlignment="center"
         android:textColor="#202020"
         android:textSize="20sp"
@@ -32,28 +32,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="50dp"
-            android:orientation="horizontal">
-
-            <TextView
-                android:id="@+id/txtpuntos"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginRight="10dp"
-                android:layout_weight="1"
-                android:textAlignment="viewEnd"
-                android:textColor="#202020"
-                android:textSize="18dp"
-                android:text="Puntos restantes:" />
-
-            <EditText
-                android:id="@+id/edtpuntos"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_marginRight="20dp"
-                android:layout_weight="1"
-                android:ems="10"
-                android:inputType="textPersonName" />
-        </LinearLayout>
+            android:orientation="horizontal"/>
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -72,7 +51,7 @@
                 android:inputType="textPersonName" />
 
             <Button
-                android:id="@+id/btnAdivinar"
+                android:id="@+id/btnAceptar"
                 android:layout_width="40dp"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="10dp"
@@ -81,7 +60,7 @@
                 android:fontFamily="@font/architects_daughter"
                 android:textStyle="bold"
                 android:textSize="18sp"
-                android:text="Adivinar" />
+                android:text="Aceptar" />
         </LinearLayout>
 
     </LinearLayout>
